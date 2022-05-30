@@ -203,8 +203,95 @@ V(G)= 2 + 1= 3
 2) 1,2,3,4,5,6,10,5,9
 3) 1,2,3,4,5,6,7,8,5,6,10,5,6,7,8,5,9
 ```
+## Ejercicio 8
+### Enunciado:
+Escriba un diagrama de flujo que permita ingresar 6 pares de números naturales que representan
+notas de parciales, en las variables N1 y N2, y que calcule e imprima el promedio de cada par de
+notas.
 
+**Codigo**
 
+```python
+promedios=[]
+cont=0
+while cont<3:
+    print("Ingrese un par de notas de parciales para determinar el promedio:")
+    n1= int(input("Nota 1:"))
+    n2= int(input("Nota 2:"))
+    prom=n1+n2
+    prom= prom/2
+    print(f"El promedion de las notas es: {prom}")
+    promedios.append(prom)
+    cont+=1
+print(f"El promedio de las pares de notas son: {promedios}")
+```
+**Grafo y Diagrama de flujo:**
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio_8.jpg)
+
+**Complejidad ciclomatica**
+```
+R=2
+V(G)= 14 - 14 + 2 = 2
+V(G)= 1+1
+```
+## Ejercicio 9
+### Enunciado:
+Ingresar un número natural en la variable A. Determinar e imprimir un mensaje informando: si A
+es múltiplo de 3 o no.
+
+**Codigo**
+```python
+print('Multiplos de 3')
+A=int(input('Ingrese un número natural '))
+if A%3==0:
+    print(f'{A} es múltiplo de 3')
+else:
+    print(f'{A} no es múltiplo de 3')
+```
+**Grafo y Diagrama de flujo:**
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio9.jpg)
+
+**Complejidad ciclomatica**
+```
+R=2
+V(G)= 7 - 7 + 2 = 2
+V(G)= 1+1=2
+```
+## Ejercicio 12
+### Enunciado:
+Ingresar 10 números enteros usando la variable X. Determinar e imprimir un mensaje
+informando: la cantidad de números POSITIVOS, la cantidad de números NEGATIVOS y, la
+cantidad de CEROS ingresados.
+**Codigo**
+```python
+cont_nega=0
+cont_cero=0
+cont_posi=0
+suma_cont=0
+print("Ingrese 10 valores")
+print("El programa le mostrara cuantos valores ingreso, postivos, negativos y cero")
+
+while suma_cont<10:
+    x=int(input("Ingrese un numero: "))
+    if x>0:
+        cont_posi+=1
+    elif x<0:
+        cont_nega+=1
+    else:
+        cont_cero+=1
+    suma_cont=cont_nega+cont_cero+cont_posi
+
+print("Ustes ingreso:")
+print(f"Positivos: {cont_posi}")
+print(f"Negativos: {cont_nega}")
+print(f"Ceros: {cont_cero}")
+```
+**Comlejidad ciclomatica**
+```
+R=4
+V(G)= 22 - 20+ 2 = 4
+V(G)= 3+1=4
+```
 ## Ejercicio 13
 ### Enunciado:
 Ingresar 2 números naturales P y Q, donde P representa el multiplicando y Q el multiplicador.
