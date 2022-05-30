@@ -65,6 +65,63 @@ V(G)=2+1=3
 2) 1,2,3,4,7,8,6
 3) 1,2,3,4,7,9,6
 ```
+## Ejercicio 3:
+### Enunciado: 
+Escriba un diagrama de flujo que permita generar e imprimir los primeros 5 números naturales (a
+partir de 1).
+
+**Código**
+```  python 
+print("Imprime los 5 primeros numero naturales ")
+num=5
+n=1
+while n<=num:
+    print(f"{n}")
+    n+=1
+```
+**Grafo y Diagrama de flujo:**
+
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio3.jpg)
+
+**Calculo de complejidad**
+```
+R=2
+V(G)= 8 - 8 + 2 = 2
+V(G)= 1+1
+```
+
+**Caminos posibles**
+```
+1)1,2,3,4,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7
+2) 1,2,3,4,5,8
+```
+
+## Ejercicio 4:
+### Enunciado: 
+Escriba un diagrama de flujo que permita generar e imprimir los primeros 5 números enteros
+negativos.
+
+**Código**
+```  python 
+print("Imprime los 5 primeros numeros enteros negativos ")
+num=-5
+n=-1
+while n>=num:
+    print(f"{n}")
+    n-=1
+```
+
+**Grafo y Diagrama de flujo:**
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio4.jpg)
+
+**Calculo de complejidad**
+```
+R=2
+V(G)= 8 - 8 + 2 = 2
+V(G)= 1+1
+```
+**Caminos posibles**
+```
 
 ## Ejercicio 5:
 ### Enunciado: 
