@@ -96,7 +96,7 @@ else:
     print("El numero ingresado {N} es impar")
 ```
 **Grafo y Diagrama de flujo:**
-##Ejercicio 5:
+## Ejercicio 5:
 ### Enunciado: 
 Escriba un diagrama de flujo que permita generar e imprimir los primeros 5 números naturales en
 orden descendente (a partir de 5).
