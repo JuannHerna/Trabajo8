@@ -39,7 +39,7 @@ X, y que determine si X pertenece o no, a alguno de los intervalos [-1; 0) o (0;
 ellos), imprimiendo un mensaje que diga a cuál intervalo pertenece.
 
 **Código**
-```
+``` python
 print("Ingrese un valor real:  ")
 x=float(input(""))
 if x>=-1 and x<0:
@@ -61,6 +61,7 @@ V(G)=2+1=3
 ```
 **Caminos posibles**
 ```
-1) 1,2,3,4,5,7
-2) 1,2,3,4,6,7
+1) 1,2,3,4,5,6
+2) 1,2,3,4,7,8,6
+3) 1,2,3,4,7,9,6
 ```
