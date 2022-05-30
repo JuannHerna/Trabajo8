@@ -65,37 +65,7 @@ V(G)=2+1=3
 2) 1,2,3,4,7,8,6
 3) 1,2,3,4,7,9,6
 ```
-## Ejercicio 1:
-### Enunciado: 
-Ingresar un número natural en la variable N. Determinar e imprimir un mensaje informando: si ‘N
-es PAR’ o si ‘N es IMPAR’. 
 
-**Código**
-```  python 
-print("Ingrese un numero para derterminar si es par:")
-N= int(input(""))
-
-if numero%2==0:
-    print(f"El numero  ingresado {N} es par")
-else:
-    print("El numero ingresado {N} es impar")
-```
-**Grafo y Diagrama de flujo:**## Ejercicio 1:
-### Enunciado: 
-Ingresar un número natural en la variable N. Determinar e imprimir un mensaje informando: si ‘N
-es PAR’ o si ‘N es IMPAR’. 
-
-**Código**
-```  python 
-print("Ingrese un numero para derterminar si es par:")
-N= int(input(""))
-
-if numero%2==0:
-    print(f"El numero  ingresado {N} es par")
-else:
-    print("El numero ingresado {N} es impar")
-```
-**Grafo y Diagrama de flujo:**
 ## Ejercicio 5:
 ### Enunciado: 
 Escriba un diagrama de flujo que permita generar e imprimir los primeros 5 números naturales en
@@ -118,7 +88,7 @@ R=2
 V(G)= 8 - 8 + 2 = 2
 V(G)= 1+1=2
 ```
-Ejercicio 6:
+## Ejercicio 6:
 ### Enunciado: 
 Escriba un diagrama de flujo que permita generar e imprimir los primeros 5 números naturales
 pares (a partir de 2).
@@ -142,52 +112,7 @@ R=3
 V(G)= 11 - 10 + 2 = 3
 V(G)= 2+1=3
 ```
-## Ejercicio 1:
-### Enunciado: 
-Ingresar un número natural en la variable N. Determinar e imprimir un mensaje informando: si ‘N
-es PAR’ o si ‘N es IMPAR’. 
 
-**Código**
-```  python 
-print("Ingrese un numero para derterminar si es par:")
-N= int(input(""))
-
-if numero%2==0:
-    print(f"El numero  ingresado {N} es par")
-else:
-    print("El numero ingresado {N} es impar")
-```
-**Grafo y Diagrama de flujo:**## Ejercicio 1:
-### Enunciado: 
-Ingresar un número natural en la variable N. Determinar e imprimir un mensaje informando: si ‘N
-es PAR’ o si ‘N es IMPAR’. 
-
-**Código**
-```  python 
-print("Ingrese un numero para derterminar si es par:")
-N= int(input(""))
-
-if numero%2==0:
-    print(f"El numero  ingresado {N} es par")
-else:
-    print("El numero ingresado {N} es impar")
-```
-**Grafo y Diagrama de flujo:**## Ejercicio 1:
-### Enunciado: 
-Ingresar un número natural en la variable N. Determinar e imprimir un mensaje informando: si ‘N
-es PAR’ o si ‘N es IMPAR’. 
-
-**Código**
-```  python 
-print("Ingrese un numero para derterminar si es par:")
-N= int(input(""))
-
-if numero%2==0:
-    print(f"El numero  ingresado {N} es par")
-else:
-    print("El numero ingresado {N} es impar")
-```
-**Grafo y Diagrama de flujo:**
 ## Ejercicio 13
 ### Enunciado:
 Ingresar 2 números naturales P y Q, donde P representa el multiplicando y Q el multiplicador.
