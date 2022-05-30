@@ -286,6 +286,8 @@ print(f"Positivos: {cont_posi}")
 print(f"Negativos: {cont_nega}")
 print(f"Ceros: {cont_cero}")
 ```
+**Grafo y Diagrama de flujo**
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio_12.jpg)
 **Comlejidad ciclomatica**
 ```
 R=4
