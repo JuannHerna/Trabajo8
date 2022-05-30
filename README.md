@@ -65,3 +65,28 @@ V(G)=2+1=3
 2) 1,2,3,4,7,8,6
 3) 1,2,3,4,7,9,6
 ```
+## Ejercicio 13
+### Enunciado:
+
+**Codigo**
+```python
+print('Multiplicación sumando')
+p=int(input('Ingrese un número de multiplicando '))
+q=int(input('Ingrese un número de multiplicador '))
+producto=0
+contador=q
+while contador!=0:
+      producto+=p
+      contador-=1
+print(f'El producto de multiplicar {p} por {q} es {producto}')
+```
+
+**Grafo y Diagrama de flujo:**
+
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio_13.jpg)
+
+**Calculo de complejidad**
+
+
+**Caminos posibles**
+
