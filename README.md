@@ -163,12 +163,47 @@ while cont<5:
 ```
 **Grafo y Diagrama de flujo:**
 ![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio_6.jpg)
+
+**Complejidad ciclomatica**
 ```
-Complejidad ciclomatica
 R=3
 V(G)= 11 - 10 + 2 = 3
 V(G)= 2+1=3
 ```
+## Ejercicio 7:
+### Enunciado: 
+Escriba un diagrama de flujo que permita generar e imprimir los primeros 5 números naturales
+impares (a partir de 1).
+
+**Código**
+```  python 
+print("Imprime los 5 primeros numeros naturales impares")
+impar=1
+cont=0
+while cont<5:
+    if impar%2==1:
+        print(f"{impar}")
+        cont+=1
+    impar+=1
+```
+
+**Grafo y Diagrama de flujo:**
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio_7.jpg)
+
+**Calculo de complejidad**
+```
+R=3
+V(G)= 11 - 10 + 2 = 3
+V(G)= 2 + 1= 3
+```
+
+**Caminos posibles**
+```
+1) 1,2,3,4,5,6,7,8,5,9
+2) 1,2,3,4,5,6,10,5,9
+3) 1,2,3,4,5,6,7,8,5,6,10,5,6,7,8,5,9
+```
+
 
 ## Ejercicio 13
 ### Enunciado:
