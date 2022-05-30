@@ -2,8 +2,8 @@
 trabajo grupal
 ``` mermaid
     graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    A-->if;
+    if-->print;
+    if-->print;
+    
 ```
