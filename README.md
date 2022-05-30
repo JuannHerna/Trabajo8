@@ -118,22 +118,31 @@ R=2
 V(G)= 8 - 8 + 2 = 2
 V(G)= 1+1=2
 ```
-Ejercicio 1:
+Ejercicio 6:
 ### Enunciado: 
-Ingresar un número natural en la variable N. Determinar e imprimir un mensaje informando: si ‘N
-es PAR’ o si ‘N es IMPAR’. 
+Escriba un diagrama de flujo que permita generar e imprimir los primeros 5 números naturales
+pares (a partir de 2).
 
 **Código**
 ```  python 
-print("Ingrese un numero para derterminar si es par:")
-N= int(input(""))
-
-if numero%2==0:
-    print(f"El numero  ingresado {N} es par")
-else:
-    print("El numero ingresado {N} es impar")
+print("Imprime los 5 primeros numeros naturales pares")
+pares=2
+cont=0
+while cont<5:
+    if pares%2==0:
+        print(f"{pares}")
+        cont+=1
+    pares+=1
 ```
-**Grafo y Diagrama de flujo:**## Ejercicio 1:
+**Grafo y Diagrama de flujo:**
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio_6.jpg)
+```
+Complejidad ciclomatica
+R=3
+V(G)= 11 - 10 + 2 = 3
+V(G)= 2+1=3
+```
+## Ejercicio 1:
 ### Enunciado: 
 Ingresar un número natural en la variable N. Determinar e imprimir un mensaje informando: si ‘N
 es PAR’ o si ‘N es IMPAR’. 
