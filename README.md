@@ -2,7 +2,7 @@
 trabajo grupal
 ``` mermaid
     graph TD;
-    A-->if;
+    A-->if; 1
     if-->print;
     if-->print;
     
