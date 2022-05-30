@@ -6,7 +6,7 @@
 Ingresar un número natural en la variable N. Determinar e imprimir un mensaje informando: si ‘N
 es PAR’ o si ‘N es IMPAR’. 
 
-**Codigo**
+**Código**
 ```  python 
 print("Ingrese un numero para derterminar si es par:")
 N= int(input(""))
@@ -18,13 +18,46 @@ else:
 ```
 **Grafo y Diagrama de flujo:**
 
-![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/ejercicio1.jpg)
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio1.jpg)
 
-**Calculo de complijedad**
+**Calculo de complejidad**
 ```
 R=2
 V(G)= 7- 7 + 2 = 2
 V(G)= 1 + 1=2
+```
+**Caminos posibles**
+```
+1) 1,2,3,4,5,7
+2) 1,2,3,4,6,7
+```
+
+## Ejercicio 2:
+### Enunciado: 
+Escriba un diagrama de flujo que permita ingresar un valor numérico real en una variable llamada
+X, y que determine si X pertenece o no, a alguno de los intervalos [-1; 0) o (0; 1] (o a ninguno de
+ellos), imprimiendo un mensaje que diga a cuál intervalo pertenece.
+
+**Código**
+```
+print("Ingrese un valor real:  ")
+x=float(input(""))
+if x>=-1 and x<0:
+ print(f"{x} pertenece al intervalo [-1;0)")
+elif x>0 and x<=1:
+ print(f"{x} pertecene al intervalo (0;1]")
+else:
+print(f"{x} no pertenece a ningúno de los dos  intervalos")
+```
+**Grafo y Diagrama de flujo:**
+
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio2.jpg)
+
+**Calculo de complejidad**
+```
+R=3
+V(G)=10-9+2=3
+V(G)=2+1=3
 ```
 **Caminos posibles**
 ```
