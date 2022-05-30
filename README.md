@@ -43,11 +43,11 @@ ellos), imprimiendo un mensaje que diga a cuál intervalo pertenece.
 print("Ingrese un valor real:  ")
 x=float(input(""))
 if x>=-1 and x<0:
- print(f"{x} pertenece al intervalo [-1;0)")
+    print(f"{x} pertenece al intervalo [-1;0)")
 elif x>0 and x<=1:
- print(f"{x} pertecene al intervalo (0;1]")
+    print(f"{x} pertecene al intervalo (0;1]")
 else:
-print(f"{x} no pertenece a ningúno de los dos  intervalos")
+    print(f"{x} no pertenece a ningúno de los dos  intervalos")
 ```
 **Grafo y Diagrama de flujo:**
 
