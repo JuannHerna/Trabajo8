@@ -5,6 +5,7 @@
 ### Enunciado: 
 Ingresar un número natural en la variable N. Determinar e imprimir un mensaje informando: si ‘N
 es PAR’ o si ‘N es IMPAR’. 
+
 **Codigo**
 ```  python 
 print("Ingrese un numero para derterminar si es par:")
