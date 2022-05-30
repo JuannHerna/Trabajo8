@@ -257,6 +257,68 @@ R=2
 V(G)= 7 - 7 + 2 = 2
 V(G)= 1+1=2
 ```
+## Ejercicio 10:
+### Enunciado:
+Ingresar números enteros en la variable B y, MIENTRAS el valor ingresado en B sea
+POSITIVO, calcular la cantidad de números ingresados e imprimirla en un mensaje.
+
+**Codigo**
+``` Python
+cont=0
+print("Ingrese valores positivos, el programa le mostrar cuantos valores ingreso:")
+print("Un valor negativo cortara el programa")
+b=int(input(""))
+while b>=0:
+    cont+=1
+    b=int(input("Ingrese un valor positivo: "))
+print(f"Ustes ingreso {cont} numero positivos")
+```
+
+**Grafo y Diagrama de flujo:**
+
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio_10.jpg)
+
+**Calculo de complejidad**
+```
+R=2
+V(G)= 10- 10 + 2 = 2
+V(G)= 1+1
+```
+
+**Caminos posibles**
+```
+
+## Ejercicio 11:
+### Enunciado:
+Ingresar números enteros en la variable Z, HASTA que la suma de los valores ingresados en Z
+sea mayor a 500. Determinar e imprimir la cantidad de números ingresados.
+
+**Codigo**
+``` Python
+print('Contador de números hasta que la suma de ellos sea mayor a 500')
+suma=0
+contador=0
+while suma<=500:
+    z=int(input('Ingrese un número '))
+    suma+=z
+    contador+=1
+print(f'La cantidad de números ingresados fue de {contador}')
+```
+
+**Grafo y Diagrama de flujo:**
+
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio11.jpg)
+
+**Calculo de complejidad**
+```
+R=2
+V(G)= 9 - 9 + 2 = 2
+V(G)= 1+1=2
+```
+
+**Caminos posibles**
+```
+
 ## Ejercicio 12
 ### Enunciado:
 Ingresar 10 números enteros usando la variable X. Determinar e imprimir un mensaje
