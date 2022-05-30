@@ -86,7 +86,11 @@ print(f'El producto de multiplicar {p} por {q} es {producto}')
 ![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio_13.jpg)
 
 **Calculo de complejidad**
-
+```
+R=2
+V(G)= 11- 11 + 2 = 2
+V(G)= 1+1= 2
+```
 
 **Caminos posibles**
 
