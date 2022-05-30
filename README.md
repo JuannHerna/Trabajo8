@@ -122,7 +122,7 @@ V(G)= 1+1
 ```
 **Caminos posibles**
 ```
-
+```
 ## Ejercicio 5:
 ### Enunciado: 
 Escriba un diagrama de flujo que permita generar e imprimir los primeros 5 números naturales en
