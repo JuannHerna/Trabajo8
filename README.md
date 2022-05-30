@@ -287,6 +287,7 @@ V(G)= 1+1
 
 **Caminos posibles**
 ```
+```
 
 ## Ejercicio 11:
 ### Enunciado:
@@ -317,6 +318,7 @@ V(G)= 1+1=2
 ```
 
 **Caminos posibles**
+```
 ```
 
 ## Ejercicio 12
