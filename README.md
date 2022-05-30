@@ -95,22 +95,30 @@ if numero%2==0:
 else:
     print("El numero ingresado {N} es impar")
 ```
-**Grafo y Diagrama de flujo:**## Ejercicio 1:
+**Grafo y Diagrama de flujo:**
+##Ejercicio 5:
 ### Enunciado: 
-Ingresar un número natural en la variable N. Determinar e imprimir un mensaje informando: si ‘N
-es PAR’ o si ‘N es IMPAR’. 
+Escriba un diagrama de flujo que permita generar e imprimir los primeros 5 números naturales en
+orden descendente (a partir de 5).
 
 **Código**
 ```  python 
-print("Ingrese un numero para derterminar si es par:")
-N= int(input(""))
-
-if numero%2==0:
-    print(f"El numero  ingresado {N} es par")
-else:
-    print("El numero ingresado {N} es impar")
+print("Imprime los 5 primeros numero naturales en orden descendente ")
+num=1
+n=5
+while n>=num:
+    print(f"{n}")
+    n-=1
 ```
-**Grafo y Diagrama de flujo:**## Ejercicio 1:
+**Grafo y Diagrama de flujo:**
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/diagramasygrafos/ejercicio_5.jpg)
+```
+calculo complejidad:
+R=2
+V(G)= 8 - 8 + 2 = 2
+V(G)= 1+1=2
+```
+Ejercicio 1:
 ### Enunciado: 
 Ingresar un número natural en la variable N. Determinar e imprimir un mensaje informando: si ‘N
 es PAR’ o si ‘N es IMPAR’. 
