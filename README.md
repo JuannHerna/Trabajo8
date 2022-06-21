@@ -477,3 +477,71 @@ v(g)= P +1= 6
 1) 1,2,3,4,5,6,7,10,11,12,13,14,10,15,16,17,18,15,19,20,22
 2) 1,2,3,4,5,6,7,8,9,7,10,11,12,13,14,10,11,12,13,14,10,15,16,17,18,15,19,21,22
 ```
+## Ejercicio 4
+### Enunciado:
+Escriba un diagrama de flujo que permita ingresar un número entero positivo entre 999 y 99999,
+que imprima el número ingresado, que lo descomponga en unidad, decena, centena, unidad de
+mil, decena de mil (según el tamaño del número), y que determine e imprima un mensaje
+avisando si el número ingresado es capicúa o no.
+Por ejemplo, si el número ingresado fuera 564, tendríamos Unidad=4, Decena=6 y Centena=5, y
+habrá que imprimir “564 no es capicúa”, en cambio si el número ingresado fuera 565, habría que
+imprimir “565 es capicúa”.
+**Codigo**
+``` python
+Codigo numeros es_capicua:
+
+numero=input('Ingrese un numero ')
+
+if int(numero) >= 999 and int(numero) <= 99999:
+    lista=list(numero)
+    if len(lista)==3:
+        unidad=lista[2]
+        decena=lista[1]
+        centena=lista[0]
+        inverso=unidad+decena+centena
+        if inverso == numero:
+            print(f'El numero {numero} es capicua')
+        else:
+            print(f'El numero {numero} no es capicua')
+    elif len(lista)==4:
+        unidad=lista[3]
+        decena=lista[2]
+        centena=lista[1]
+        unidad_mil=lista[0]
+        inverso=unidad+decena+centena+unidad_mil
+        if inverso == numero:
+            print(f'El numero {numero} es capicua')
+        else:
+            print(f'El numero {numero} no es capicua')
+    else:
+        unidad=lista[4]
+        decena=lista[3]
+        centena=lista[2]
+        unidad_mil=lista[1]
+        decena_mil=lista[0]
+        inverso=unidad+decena+centena+unidad_mil+decena_mil
+        if inverso == numero:
+            print(f'El numero {numero} es capicua')
+        else:
+            print(f'El numero {numero} no es capicua')
+else:
+    print('No ha ingresado un número valido')
+``` 
+**Grafo y Diagrama de flujo:**
+![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/tp8_bis/ejercicio4.jpg)
+**Calculo de complejidad**
+```
+R= 7
+V(G)= A-N+2= 28-23+2=7
+V(G)=P+1=6+1=7
+```
+**Caminos posibles**
+```
+*1-2-3-4-5
+*1-2-3-6-7-8-9-10-11-5
+*1-2-3-6-7-8-9-10-12-5
+*1-2-3-6-7-13-14-15-16-17-5.
+*1-2-3-6-7-13-14-15-16-18-5
+*1-2-3-6-7-13-20-21-22-5
+*1-2-3-6-7-13-19-20-21-23-5
+```
