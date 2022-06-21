@@ -431,13 +431,44 @@ V(G)= 1+1= 2
 ## Ejercicio 2
 ### Enunciado:
 **Codigo**
-```
+```python
+numero=[]
+i=0
+pos=0
+j=0
+maxx=int(input('Ingrese la cantidad de elementos que desea cargar, de 8 a 40: '))
+while maxx<8 or maxx>40:
+    print('Ingrese un numero dentro del rango, 8 a 40')
+    maxx= int(input(''))
+
+while i<maxx:
+    print('ingrese un numero')
+    num=int(input())
+    numero.append(num)
+    print(numero)
+    i+=1
+limite= len(numero)
+
+while j<limite:
+    if numero[j]<0:
+        pos=j
+    j+=1
+if pos>0:
+    print(f'La posicion del ultimo elemento negativo ingresado es : {pos}')
+else:
+    print("no existen numeros negativvos ingresados")
+
 ```
 **Grafo y Diagrama de flujo:**
 ![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/tp8_bis/ejercicio2.jpg)
 **Calculo de complejidad**
 ```
+R=6
+v(g)= A-N+2=26-22+2=6
+v(g)= P +1= 6
 ```
 **Caminos posibles**
 ```
+1) 1,2,3,4,5,6,7,10,11,12,13,14,10,15,16,17,18,15,19,20,22
+2) 1,2,3,4,5,6,7,8,9,7,10,11,12,13,14,10,11,12,13,14,10,15,16,17,18,15,19,21,22
 ```
