@@ -430,6 +430,11 @@ V(G)= 1+1= 2
 
 ## Ejercicio 2
 ### Enunciado:
+
+2) Dibujar un diagrama de flujo de datos que permita cargar y determinar e imprimir la posición del
+último elemento negativo dentro de un vector X con datos numéricos enteros ingresados por el
+usuario, con entre 8 y 40 elementos.
+
 **Codigo**
 ```python
 numero=[]
@@ -463,7 +468,7 @@ else:
 ![Image text](https://github.com/JuannHerna/Trabajo8/blob/main/tp8_bis/ejercicio2.jpg)
 **Calculo de complejidad**
 ```
-R=6
+v(g)= R=6
 v(g)= A-N+2=26-22+2=6
 v(g)= P +1= 6
 ```
