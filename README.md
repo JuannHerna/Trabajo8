@@ -1,6 +1,6 @@
 # Trabajo Practico 8
 ## Trabajo grupal Diagramas de flujo
-Alumnos: Juan Cruz Hernandez y Luz María Tranzillo 
+Alumnos: Juan Cruz Hernandez, Luz María Tranzillo y Jose Lambrechts
 
 ## Ejercicio 1:
 ### Enunciado: 
